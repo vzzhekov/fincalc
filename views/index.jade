@@ -1,0 +1,13 @@
+extends layout
+block content
+    h1= title
+    p Welcome to #{title}
+    input#future_value(type='number')
+    br
+    input#interest_rate(type='number')
+    br
+    input#number_of_years(type='number')
+    br
+    input(type='button', value='submit', onclick='present_value()')
+    p The Present Value Is:
+    p#result
