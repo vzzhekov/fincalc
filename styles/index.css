@@ -2,13 +2,18 @@ body {
     padding: 0px;
     margin: 0px;
     font-family: Arial;
-    font-size: 14px
+    font-size: 14px;
+    background-color: #ffffff;
 }
 
 #mast {
     height: 35px;
-    background-color: #d66b38;
-    border-bottom: 1px solid #c83e17;
+    background: -webkit-linear-gradient(#678db6, #4e75a6); /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(#1b9eff, #2c77de); /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(#678db6, #4e75a6); /* For Firefox 3.6 to 15 */
+    background: linear-gradient(#678db6, #4e75a6); /* Standard syntax */
+
+    border-bottom: 1px solid #0f2bc8;
 }
 #main{
     width: 1200px;
@@ -31,3 +36,28 @@ body {
     color: #f4fffd;
 
 }
+
+#numeric {
+    border: 1px solid rgba(0, 0, 0, 0.45);
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+    padding: 5px;
+    margin-bottom: 15px;
+    width: 500px;
+    background: linear-gradient(#fdf8ff, #e8e7ea);
+}
+
+input {
+    padding-left: 5px;
+    margin-left: 5px;
+}
+#top_numeric {
+    height: 20px;
+    display: block;
+    width:510px;
+    border-top-right-radius: 5px;
+    border-top-left-radius: 5px;
+    background: linear-gradient(#678db6, #4e75a6);
+    border: 1px solid rgba(0, 0, 0, 0.45);
+}
+
