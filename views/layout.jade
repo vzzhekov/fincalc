@@ -1,9 +1,18 @@
 doctype html
 html
     head
-        title financialsparce
+        title=title
         script(src='model/presentvalue.js')
         link(type='text/css', rel='stylesheet', href='styles/index.css')
-    body
-        h1 Hello world!
-        block content
+        link(href='styles/kendo.common.min.css', rel='stylesheet')
+        link(href='styles/kendo.default.min.css', rel='stylesheet')
+        script(src='model/jquery.min.js')
+        script(src='model/kendo.all.min.js')
+
+        body
+        div#mast
+            div#mast2 Present Value Calculator
+        div#main
+            block content
+        div#footer
+            script(src='model/kendo.js')

@@ -9,16 +9,16 @@ function present_value() {
     var ans = 1;
     realir += 1.00;
 
-    console.log("Second ir before the loop");
-    console.log(ir);
-    console.log(realir);
+
+
     for(var i = 1; i <= ny; i++) {
-        console.log("Third inside the for loop");
-        console.log(ir);
+
+
         ans = realir * ans;
     }
-    console.log("4th before the for loop");
+
     console.log(ans);
     var PV = fv/ans;
     document.getElementById('result').innerHTML = PV.toFixed(2) + " $";
 }
+

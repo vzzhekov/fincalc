@@ -1,3 +1,33 @@
 body {
-    background-color: red;
+    padding: 0px;
+    margin: 0px;
+    font-family: Arial;
+    font-size: 14px
+}
+
+#mast {
+    height: 35px;
+    background-color: #d66b38;
+    border-bottom: 1px solid #c83e17;
+}
+#main{
+    width: 1200px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#primarybutton {
+    font-family: Arial;
+}
+
+#mast2{
+    width: 1200px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 10px;
+    font-family: Helvetica;
+    font-size: 16px;
+    font-weight: bold;
+    color: #f4fffd;
+
 }

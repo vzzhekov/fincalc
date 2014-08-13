@@ -1,13 +1,17 @@
 extends layout
 block content
-    h1= title
-    p Welcome to #{title}
-    input#future_value(type='number')
-    br
-    input#interest_rate(type='number')
-    br
-    input#number_of_years(type='number')
-    br
-    input(type='button', value='submit', onclick='present_value()')
+    h1 Welcome to #{title}
+    p Future Value:
+        input#future_value(type='number')
+        br
+    p Interest Rate:
+        input#interest_rate(type='number')
+        br
+    p Number of Years:
+        input#number_of_years(type='number')
+        br
+    button#primarybutton.k-button(onclick='present_value()') Calculate
     p The Present Value Is:
     p#result
+    span#popupNotification
+
