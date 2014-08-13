@@ -13,6 +13,7 @@ app.set('port', process.env.PORT || 3000);
 app.set('view engine', 'jade');
 app.use("/styles", express.static('styles'));
 app.use('/model', express.static('model'));
+app.use('/img', express.static('img'));
 app.use(express.favicon());
 app.use(express.logger('dev'));
 app.use(express.json());
