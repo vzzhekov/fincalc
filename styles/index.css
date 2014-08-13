@@ -71,3 +71,15 @@ img{
     font-weight: bold;
     font-size: 15px;
 }
+
+a:link, a:visited {
+    float: right;
+    text-decoration: none;
+    font-size: 14px;
+    color: white;
+    margin-right: 5px;
+}
+
+a:hover {
+    color: #99a4a6;
+}
