@@ -6,6 +6,9 @@ body {
     background-color: #ffffff;
 }
 
+#logo {
+    float: left;
+}
 #mast {
     height: 35px;
     background: -webkit-linear-gradient(#678db6, #4e75a6); /* For Safari 5.1 to 6.0 */
@@ -13,7 +16,7 @@ body {
     background: -moz-linear-gradient(#678db6, #4e75a6); /* For Firefox 3.6 to 15 */
     background: linear-gradient(#678db6, #4e75a6); /* Standard syntax */
 
-    border-bottom: 1px solid #0f2bc8;
+    border-bottom: 1px solid rgba(31, 31, 31, 0.87);
 }
 #main{
     width: 1200px;
