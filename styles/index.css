@@ -1,3 +1,5 @@
+
+
 body {
     padding: 0px;
     margin: 0px;
@@ -86,3 +88,20 @@ a:link, a:visited {
 a:hover {
     color: #99a4a6;
 }
+
+a#linkedin {
+    color: #007bb6;
+    float: left;
+}
+
+#personalimg {
+    height: 400px;
+    margin-top: 20px;
+}
+#aboutme{
+    float:right;
+    width: 780px;
+    margin-top: 25px;
+    margin-right: 50px;
+}
+

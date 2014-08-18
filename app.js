@@ -34,5 +34,5 @@ app.get('/aboutme', function(req, res){
 
 var port = 3000;
 http.createServer(app).listen( port, function() {
-    console.log('Express server listening on port ' + app.get(port));
+    console.log('Express server listening on port ' + port);
 });
