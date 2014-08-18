@@ -1,5 +1,5 @@
 {
-    "name": "application-name",
+    "name": "financial-calculator",
     "version": "0.0.1",
     "private": true,
     "scripts": {
@@ -8,5 +8,10 @@
     "dependencies": {
         "express": "3.5.1",
         "jade": "*"
+    },
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/vzzhekov/fincalc.git"
     }
+
 }

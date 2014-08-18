@@ -9,7 +9,7 @@ var path = require('path');
 var app = express();
 
 
-app.set('port', process.env.PORT || 3000);
+
 app.set('view engine', 'jade');
 app.use("/styles", express.static('styles'));
 app.use('/model', express.static('model'));
@@ -32,6 +32,7 @@ app.get('/aboutme', function(req, res){
     res.render('aboutme');
 });
 
-http.createServer(app).listen(app.get('port'), function() {
-    console.log('Express server listening on port ' + app.get('port'));
+var port = 3000;
+http.createServer(app).listen( port, function() {
+    console.log('Express server listening on port ' + app.get(port));
 });
