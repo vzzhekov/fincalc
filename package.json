@@ -8,10 +8,10 @@
     "dependencies": {
         "express": "3.5.1",
         "jade": "*"
-    },
-    "repository": {
-        "type": "git",
-        "url": "https://github.com/vzzhekov/fincalc.git"
     }
+//    "repository": {
+//        "type": "git",
+//        "url": "https://github.com/vzzhekov/fincalc.git"
+//    }
 
 }
